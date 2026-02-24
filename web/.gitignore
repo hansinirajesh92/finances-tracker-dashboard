@@ -1,24 +1,24 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data privacy (raw exports should never be committed)
+data/raw/
+*.xlsx
+
+# Keep sample data only
+# (we will include data/sample/transactions.csv manually)
+
+# Node / React
+web/node_modules/
+web/dist/
+web/.env
+web/.env.*
+
 # Logs
-logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
